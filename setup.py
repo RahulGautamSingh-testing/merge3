@@ -178,8 +178,8 @@ setup(
     install_requires=[
         'Werkzeug~=1.0;python_version~="3.5.0"',
         'Werkzeug<3;python_version>="3.6"',
-        'statsd~=3.3;python_version~="3.5.0"',
-        'statsd<4;python_version>="3.6"',
+        'statsd~=4.0;python_version~="3.5.0"',
+        'statsd<5;python_version>="3.6"',
         'requests~=2.25;python_version~="3.5.0"',
         'requests<3.0;python_version>"3.5"',
         'contextvars~=2.4;python_version>="3.5" and python_version<"3.7"',
