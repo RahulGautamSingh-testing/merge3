@@ -151,7 +151,7 @@ setup(
             'django<4;python_version>"3.5"',
         ],
         flask=[
-            'flask~=1.1;python_version~="3.5.0"',
+            'flask~=2.2;python_version~="3.5.0"',
             'flask<3;python_version>"3.5"',
             'blinker~=1.5;python_version~="3.5.0"',
             'blinker<2;python_version>"3.5"',
