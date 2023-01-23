@@ -1,8 +1,0 @@
-{
-  "name": "tenders",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "nodemon": "1.0.0"
-  }
-}
