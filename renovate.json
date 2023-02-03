@@ -1,7 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "releaseConstraintFiltering": "strict",
-  "constraints": {
-  "python": "2.7"
-  }
+  "packageRules": [
+    {
+    "matchPackageNames": ["statsd"],
+      "registryUrls": ["https://google.com"]
+    }
+  ]
 }
