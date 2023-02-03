@@ -167,8 +167,8 @@ setup(
             'psycopg2>=2.8,<3.0',
         ],
         prometheus=[
-            'prometheus-client~=0.7.0;python_version~="3.5.0"',
-            'prometheus-client<0.8;python_version>"3.5"',
+            'prometheus-client~=0.16.0;python_version~="3.5.0"',
+            'prometheus-client<0.17;python_version>"3.5"',
         ],
         raven=[
             'raven>=6.4.0',
