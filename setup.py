@@ -176,7 +176,7 @@ setup(
     ),
     include_package_data=True,
     install_requires=[
-        'Werkzeug~=1.0;python_version~="3.5.0"',
+        'Werkzeug~=2.2;python_version~="3.5.0"',
         'Werkzeug<3;python_version>="3.6"',
         'statsd~=3.3;python_version~="3.5.0"',
         'statsd<4;python_version>="3.6"',
