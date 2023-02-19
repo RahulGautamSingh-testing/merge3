@@ -1,9 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "packageRules": [
+   "hostRules": [
     {
-    "matchPackageNames": ["facebook/facebook-for-magento2"],
-      "registryUrls": ["https://packagist.org"]
+      "baseUrl": "https://some.domain.com",
+      "domainName": "domain.com",
+      "matchHost": "domain.com/",
+      "hostName": "some.domain.com",
+      "token": "123test"
     }
   ]
 }
