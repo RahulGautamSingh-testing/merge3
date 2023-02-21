@@ -5,14 +5,13 @@
         "hostType": "nuget",
         "hostName": "nuget.org",
         "username": "root",
-        "password": "p4$$w0rd",
-        "token": undefined
+        "password": "p4$$w0rd"
       },
      {
         "matchHost": "github.com",
         "token": "def"
       },
-     
+     {
         "matchHost": "nuget.local",
         "token": "abc"
       },
