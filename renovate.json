@@ -2,11 +2,30 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "hostRules": [
     {
-      "baseUrl": "https://some.domain.com",
-      "domainName": "domain.com",
-      "matchHost": "domain.com/",
-      "hostName": "some.domain.com",
-      "token": "123test"
-    }
+        "hostType": "nuget",
+        "hostName": "nuget.org",
+        "username": "root",
+        "password": "p4$$w0rd",
+        "token": undefined
+      },
+     {
+        "matchHost": "github.com",
+        "token": "def"
+      },
+     
+        "matchHost": "nuget.local",
+        "token": "abc"
+      },
+{
+        "hostType": "nuget,
+        "matchHost": "my.local.registry",
+        "token": "def"
+      } ,
+{
+        "hostType": "nuget",
+        "matchHost": "nuget.org",
+        "username": "root",
+        "password": "p4$$w0rd"
+      }
   ]
 }
