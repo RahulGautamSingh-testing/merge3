@@ -4,25 +4,7 @@
     {
         "hostType": "nuget",
         "hostName": "nuget.org",
-        "username": "root",
-        "password": "p4$$w0rd"
-      },
-     {
-        "hostName": "github.com",
-        "token": "def"
-      },
-     {
-        "hostName": "nuget.local",
-        "token": "abc"
-      },
-{
-        "hostType": "nuget",
-        "hostName": "my.local.registry",
-        "token": "def"
-      } ,
-{
-        "hostType": "nuget",
-        "hostName": "nuget.org",
+        "matchHost": "nuget.org",
         "username": "root",
         "password": "p4$$w0rd"
       }
